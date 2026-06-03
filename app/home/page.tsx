@@ -224,10 +224,6 @@ export default function HomePage() {
               View more projects
               <ArrowRight size={16} />
             </a>
-            <a href="/more-projects" className="btn-link inline-flex items-center gap-2">
-              View more project
-              <ArrowRight size={16} />
-            </a>
           </div>
         </div>
 
