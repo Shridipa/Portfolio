@@ -219,10 +219,16 @@ export default function HomePage() {
           <div>
             <SectionTitle title="Featured Projects" subtitle="Research-focused systems that show methodology, architecture, and impact." />
           </div>
-          <a href="#contact" className="btn-link inline-flex items-center gap-2">
-            Contact for project details
-            <ArrowRight size={16} />
-          </a>
+          <div className="flex flex-wrap gap-4">
+            <a href="/more-projects" className="btn-primary inline-flex items-center gap-2">
+              View more projects
+              <ArrowRight size={16} />
+            </a>
+            <a href="/more-projects" className="btn-link inline-flex items-center gap-2">
+              View more project
+              <ArrowRight size={16} />
+            </a>
+          </div>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3">
