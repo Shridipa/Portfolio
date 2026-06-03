@@ -88,13 +88,25 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white">Resume</h3>
+                    <div className="space-y-2">
                     <a
-                      href="/Shridipa-Dhar-Resume.pdf"
+                      href="/Shridipa_Dhar_Resume.pdf"
                       download
+                      target="_blank"
+                      rel="noreferrer"
                       className="text-slate-300 hover:text-green-400 transition-colors inline-flex items-center gap-2"
                     >
                       Download Resume <ExternalLink size={16} />
                     </a>
+                    <a
+                      href="/Shridipa_Dhar_Resume.pdf"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-slate-300 hover:text-green-400 transition-colors inline-flex items-center gap-2"
+                    >
+                      View Resume <ExternalLink size={16} />
+                    </a>
+                  </div>
                   </div>
                 </div>
               </GlassCard>

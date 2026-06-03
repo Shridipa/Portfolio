@@ -337,10 +337,16 @@ export default function HomePage() {
                 Ready to discuss research internships, machine learning systems, and quantitative engineering with a strong emphasis on clarity, rigor, and measurable impact.
               </p>
             </div>
-            <a href="#contact" className="btn-primary inline-flex items-center gap-3">
-              Download Resume
-              <ArrowRight size={18} />
-            </a>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a href="/Shridipa_Dhar_Resume.pdf" download target="_blank" rel="noreferrer" className="btn-primary inline-flex items-center gap-3">
+                Download Resume
+                <ArrowRight size={18} />
+              </a>
+              <a href="/Shridipa_Dhar_Resume.pdf" target="_blank" rel="noreferrer" className="btn-secondary inline-flex items-center gap-3">
+                View Resume
+                <ArrowRight size={18} />
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -46,9 +46,14 @@ export default function AboutPage() {
                 <span className="font-semibold text-white">Black Belt:</span> Karate 🥋
               </li>
             </ul>
-            <a href="/Shridipa_Dhar_Resume.pdf" download className="inline-block px-4 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white font-semibold transition-colors">
-              Download Resume
-            </a>
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              <a href="/Shridipa_Dhar_Resume.pdf" download target="_blank" rel="noreferrer" className="inline-block px-4 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white font-semibold transition-colors">
+                Download Resume
+              </a>
+              <a href="/Shridipa_Dhar_Resume.pdf" target="_blank" rel="noreferrer" className="inline-block px-4 py-2 rounded-lg border border-white/20 text-white hover:bg-white/10 transition-colors">
+                View Resume
+              </a>
+            </div>
           </GlassCard>
         </div>
 
