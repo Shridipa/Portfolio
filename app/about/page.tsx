@@ -23,7 +23,7 @@ export default function AboutPage() {
 
           <GlassCard>
             <h3 className="text-xl font-bold text-white mb-4">Quick Facts</h3>
-            <ul className="space-y-3 text-sm text-slate-300">
+            <ul className="space-y-3 text-sm text-slate-300 mb-6">
               <li>
                 <span className="font-semibold text-white">CGPA:</span> 8.49/10
               </li>
@@ -46,6 +46,9 @@ export default function AboutPage() {
                 <span className="font-semibold text-white">Black Belt:</span> Karate 🥋
               </li>
             </ul>
+            <a href="/Shridipa_Dhar_Resume.pdf" download className="inline-block px-4 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white font-semibold transition-colors">
+              Download Resume
+            </a>
           </GlassCard>
         </div>
 
